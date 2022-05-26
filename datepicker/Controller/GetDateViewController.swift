@@ -294,6 +294,7 @@ class GetDateViewController: UIViewController {
                 timeButton.backgroundColor = UIColor(rgb: 0xFF8E88)
                 Toast.show(message: "Дедлайн не может быть в прошлом", controller: self)
             } else {
+                timeButton.backgroundColor = UIColor(rgb: 0xF2F3F5)
                 navigationItem.rightBarButtonItem?.isEnabled = true
             }
         }
